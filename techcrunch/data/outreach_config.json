@@ -1,0 +1,24 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "email_address": "",
+    "email_password": "",
+    "google_creds_file": "data/google_credentials.json",
+    "sheet_name": "business-insider-authors",
+    "email_templates": {
+        "default": {
+            "subject": "Collaboration Opportunity - {author_name} from Business Insider",
+            "body": "Dear {author_name},\n\nI hope this message finds you well.\n\nI've been following your excellent work on Business Insider, especially your articles on {topic}.\nYour insights are particularly impressive and resonate with our audience.\n\nI'm {your_name}, and I represent a team interested in high-quality content in your area of expertise.\nWe would be honored to explore a potential collaboration opportunity that could benefit both our audiences.\n\nWould you be open to a brief conversation about potential partnership opportunities?\n\nLooking forward to hearing your thoughts.\n\nBest regards,\n{your_name}\n{your_position}\n{company_name}"
+        }
+    },
+    "sender_info": {
+        "your_name": "Your Name",
+        "your_position": "Content Outreach Manager",
+        "company_name": "Your Company"
+    },
+    "ui_settings": {
+        "theme": "dark",
+        "font_size": 10,
+        "auto_save": true
+    }
+}

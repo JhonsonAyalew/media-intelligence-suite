@@ -1,0 +1,5 @@
+{
+    "google_creds_file": "data/google_credentials.json",
+    "sheet_name": "nytimes-authors",
+    "smtp_configured": false
+}

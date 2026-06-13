@@ -1,0 +1,41 @@
+{
+    "site_name": "CNET",
+    "base_url": "https://www.cnet.com",
+    "categories": {
+        "ai-atlas": "https://www.cnet.com/ai-atlas/",
+        "tech": "https://www.cnet.com/tech/",
+        "home": "https://www.cnet.com/home/",
+        "entertainment": "https://www.cnet.com/culture/entertainment/",
+        "health": "https://www.cnet.com/health/"
+    },
+    "max_pages_per_category": 5,
+    "default_threads": 10,
+    "request_timeout": 15,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "email_extraction_enabled": true,
+    "batch_size": 50,
+    "pagination_pattern": "https://www.cnet.com/news/{page}/",
+    "use_author_slug_normalization": false,
+    "article_selectors": {
+        "article_link": "a.c-storiesNeonLatest_story",
+        "author_name": "[data-cy=\"authorName\"]",
+        "author_profile": "a[rel=\"author\"]",
+        "social_links": ".c-socialSharebar_container a"
+    },
+    "output_format": {
+        "author_fields": [
+            "Author Name",
+            "Profile URL",
+            "Twitter",
+            "Facebook",
+            "Email",
+            "Article Count",
+            "Publication Name"
+        ],
+        "article_fields": [
+            "link",
+            "category",
+            "scraped_at"
+        ]
+    }
+}

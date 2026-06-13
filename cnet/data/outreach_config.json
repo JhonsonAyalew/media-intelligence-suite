@@ -1,0 +1,46 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "email_address": "",
+    "email_password": "",
+    "google_creds_file": "data/google_credentials.json",
+    "sheet_name": "cnbc-authors",
+    "email_templates": {
+        "default": {
+            "subject": "Collaboration Opportunity - {author_name} from CNBC",
+            "body": "Dear {author_name},\n\nI hope this message finds you well.\n\nI've been following your excellent reporting on CNBC, especially your coverage of {topic}.\nYour insights into market trends and financial analysis are particularly valuable.\n\nI'm {your_name}, and I represent a team interested in high-quality financial and business content.\nGiven your expertise in this field, we believe there could be interesting collaboration opportunities that would benefit both our audiences.\n\nWould you be open to a brief conversation about potential partnership opportunities?\n\nLooking forward to hearing your thoughts.\n\nBest regards,\n{your_name}\n{your_position}\n{company_name}"
+        },
+        "cnbc_specific": {
+            "subject": "Regarding your recent CNBC coverage of {topic}",
+            "body": "Hello {author_name},\n\nI recently read your article on CNBC about {topic} and found your analysis to be very insightful.\nAs someone who closely follows financial and business news, I appreciate the depth and clarity of your reporting.\n\nI'm {your_name} from {company_name}, and we're looking to connect with skilled financial journalists like yourself.\nWe believe there could be valuable collaboration opportunities that align with your expertise in this sector.\n\nWould you be interested in discussing this further?\n\nBest regards,\n{your_name}\n{your_position}\n{company_name}"
+        },
+        "market_analysis": {
+            "subject": "Discussion about your market analysis on CNBC",
+            "body": "Dear {author_name},\n\nYour market analysis and financial reporting on CNBC consistently provide valuable insights.\nI particularly appreciated your recent piece on {topic} - it offered a nuanced perspective that's often missing in financial journalism.\n\nI'm {your_name}, working with {company_name} where we focus on {your_industry}.\nWe're always looking to collaborate with knowledgeable financial journalists who understand market dynamics as well as you do.\n\nWould you be open to exploring potential collaboration opportunities?\n\nSincerely,\n{your_name}\n{your_position}\n{company_name}"
+        },
+        "quick_intro": {
+            "subject": "Introduction from an admirer of your CNBC work",
+            "body": "Hi {author_name},\n\nI'm {your_name} from {company_name}. I regularly follow CNBC and have been impressed with your reporting on {topic}.\n\nYour ability to break down complex financial concepts is remarkable, and it's clear you have a deep understanding of the markets.\n\nI'd love to connect and explore if there might be opportunities for collaboration or knowledge sharing.\n\nBest,\n{your_name}\n{your_position}\n{company_name}"
+        }
+    },
+    "sender_info": {
+        "your_name": "Your Name",
+        "your_position": "Business Development Manager",
+        "company_name": "Your Company",
+        "your_industry": "financial services"
+    },
+    "ui_settings": {
+        "theme": "light",
+        "font_size": 10,
+        "auto_save": true,
+        "primary_color": "#005594",
+        "secondary_color": "#00a8e8",
+        "accent_color": "#1c1c1c"
+    },
+    "email_customization": {
+        "include_article_reference": true,
+        "personalization_level": "high",
+        "follow_up_days": 7,
+        "max_emails_per_day": 50
+    }
+}

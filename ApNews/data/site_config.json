@@ -1,0 +1,52 @@
+{
+    "site_name": "AP News",
+    "base_url": "https://apnews.com",
+    "categories": {
+        "world-news": "https://apnews.com/world-news",
+        "us-news": "https://apnews.com/us-news",
+        "politics": "https://apnews.com/politics",
+        "sports": "https://apnews.com/sports",
+        "entertainment": "https://apnews.com/entertainment",
+        "business": "https://apnews.com/business",
+        "science": "https://apnews.com/science"
+    },
+    "max_pages_per_category": 1,
+    "default_threads": 10,
+    "request_timeout": 15,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "email_extraction_enabled": true,
+    "cloudflare_email_decoding": true,
+    "batch_size": 50,
+    "use_author_slug_normalization": false,
+    "article_selectors": {
+        "article_container": "div.PagePromo",
+        "article_link": "a[href*='/article/']",
+        "article_title": "h1",
+        "author_byline": "div.Page-authors",
+        "author_link": "a[href*='/author/']",
+        "author_job_title": "div.AuthorLead-jobTitle",
+        "author_bio": "div.AuthorLead-biography",
+        "social_links": "a.SocialLink",
+        "profile_image": "img.Image"
+    },
+    "output_format": {
+        "author_fields": [
+            "Author Name",
+            "Job Title",
+            "Biography",
+            "Profile URL",
+            "Twitter",
+            "Email",
+            "Profile Image",
+            "Article Count",
+            "Sample Article",
+            "Publication Name"
+        ],
+        "article_fields": [
+            "link",
+            "title",
+            "category",
+            "scraped_at"
+        ]
+    }
+}
