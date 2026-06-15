@@ -65,7 +65,7 @@ This suite was designed for media intelligence professionals, PR teams, and jour
     </td>
     <td align="center">
       <strong>Business Insider Scraper</strong><br/>
-      <img src="business_insider/techcrunch.png" alt="Business Insider Scraper" width="420"/>
+      <img src="techcrunch/techcrunch.png" alt="Business Insider Scraper" width="420"/>
     </td>
   </tr>
   <tr>
